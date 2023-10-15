@@ -201,6 +201,17 @@ int main() {
     return 0;
 }
 ```
+## Ejecucción
+### Para la Tarea 3
+- gcc -o Tarea Tarea3.c
+- ./Tarea
+
+### Para el test
+- gcc -o Test Tarea3_Test.c
+- ./Test
+
+
+
 ### Referancias
 - [Operating Systems: Design and Implementation" de Andrew S. Tanenbaum y Herbert Bos ](https://csc-knu.github.io/sys-prog/books/Andrew%20S%20Tanenbaum%20-%20Operating%20Systems.%20Design%20and%20Implementation.pdf) , capitulo 2.3 CLASSICAL IPC PROBLEMS , pagina 89
 - [The Dining Philosophers Problem Solution in C](https://medium.com/swlh/the-dining-philosophers-problem-solution-in-c-90e2593f64e8)
