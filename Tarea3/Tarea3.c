@@ -19,7 +19,7 @@ void* filosofo(void* num) {
         sem_wait(&tenedores[IZQUIERDA]); // Espera a que el tenedor izquierdo esté disponible
         printf("Filosofo %d ha tomado el tenedor izquierdo (%d)...\n", id, IZQUIERDA);
         sem_wait(&tenedores[DERECHA]); // Espera a que el tenedor derecho esté disponible
-        printf("Filosofo %d ha tomado el tenedor izquierdo (%d)...\n", id, DERECHA );
+        printf("Filosofo %d ha tomado el tenedor derecho (%d)...\n", id, DERECHA );
 
         sem_post(&mutex); // Libera el acceso exclusivo a los tenedores
         printf("Filosofo %d comiendo...\n", id);
